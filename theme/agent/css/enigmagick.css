@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo|Autour+One);
+
+/********************************************************************************************************************/
+/******************************************** MAIN HTML STYLES ******************************************************/
+/********************************************************************************************************************/
+body {
+	background: #111;
+	color: #9f9 !important;
+	word-wrap: break-word;
+}
+
+a {
+	margin: 1px;
+	color: #e76d33;
+	text-decoration: none;
+	-webkit-transition: color .3s, background-color .3s;
+	-moz-transition: color .3s, background-color .3s;
+	-ms-transition: color .3s, background-color .3s;
+	-o-transition: color .3s, background-color .3s;
+	transition: color .3s, background-color .3s;
+}
+
+a:hover {
+	color: #fbb963;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+.page {
+	background: #111;
+	border-radius: 5px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.header {
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+h2 {
+	text-align: center;
+}
+
+.content {
+	background: #222222;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.quote {
+	background: #eec;
+	color: #000;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+
+.menu {   
+	float:left;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	margin-top:8px;
+	margin-bottom:15px
+}
+.menu ul {
+	clear:left;
+	float:left;
+	list-style:none;
+
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50%;
+	text-align:center;
+}
+.menu ul li {
+	display:block;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	right:50%;
+}
+.menu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   background:#996;
+   color:#ddd;
+   text-decoration:none;
+   line-height:1.3em;
+	border-radius: 5px !important;
+}
+.menu ul li a:hover {
+   background:#aa7;
+   color:#fff;
+}
+.menu ul li a.active, .menu ul li .current {
+   color:#fff;
+   background:#111;
+   font-weight:bold;
+}
+.menu ul li a.active:hover {
+   background:#884;
+   color:#fff;
+}
+
+.search-form {
+	background: #333333;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.results {
+	background: #111;
+	border: 1px solid #333;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: Ariel, Verdana, sans-serif;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.results li {
+	padding-bottom: 5px;
+}
+
+.results .results-triangle {
+	text-align: center;
+}
+
+.results .results-triangle table {
+	margin-left: auto;
+	margin-right: auto; 
+}

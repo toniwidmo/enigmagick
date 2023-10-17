@@ -1,0 +1,122 @@
+.page {
+	background: #ddf;
+	border: 1px solid #668;
+	border-radius: 5px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.header {
+	background: #cce;
+	border: 1px solid #88a;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+h1 {
+	padding-left: 20px;
+}
+h2 {
+	padding-left: 25px;
+}
+
+.content {
+	background: #bbd;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.quote {
+	background: #eec;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+.menu {
+	width: 100%;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	float: left;
+}
+.menu ul li {
+	display: inline;
+}
+.menu ul li a {
+	float: left;
+	background-color: #666;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	padding:4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.menu ul li a:visited {
+	float: left;
+	background-color: #666;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	padding:4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.menu ul li a:hover, .menu ul li a:active, .menu ul li .current {
+	float: left;
+	background-color: #588;
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:center;
+	padding:4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.search-form {
+	background: #bbc;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.results {
+	border: 1px solid #aca;
+	background: #efe;
+	border-radius: 5px;
+	padding: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.results .results-triangle {
+	text-align: center;
+}
+
+.results .results-triangle table {
+	margin-left: auto;
+	margin-right: auto; 
+}
