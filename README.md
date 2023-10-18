@@ -8,7 +8,7 @@ require a database.
 
 Latest Version
 --------------
-0.5.0 Alpha
+0.4.1 Alpha
 
 
 Requirements
@@ -44,3 +44,5 @@ Toni would like to thank Soror 826 for hosting a demo of the software on:
 https://computers.faith/enigmagick
 
 You can download the software from https://github.com/toniwidmo/enigmagick/
+
+Our Lady, the divine keeper of knowledge, discerns the present mysteries and the reasons that have held men asunder.
