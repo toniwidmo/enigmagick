@@ -12,7 +12,7 @@
 			//echo '['.$text.']';
 			$caps_text = strtoupper($text);
 			$chars = str_split($caps_text);
-			
+
 			$total = 0;
 			foreach ($chars as $char) {
 				//echo '('.$char.')';
@@ -39,24 +39,24 @@
 				foreach($last_phrases as $last_phrase) {
 					$phrase_words = explode(' ',$last_phrase);
 					$index = count($phrase_words);
-					
+
 					$phrases[] = $last_phrase.' '.$word;
 					$node = array();
 					$node['text'] = $last_phrase.' '.$word;
-					$node['value'] = $this->calculateValue($node['text']); 
+					$node['value'] = $this->calculateValue($node['text']);
 					if(!isset($triangle[$index+1])) $triangle[$index+1] = array();
 					$triangle[$index+1][] = $node;
 				}
 				$phrases[] = $word;
 				$node = array();
-				$node['text'] = $word; 
-				$node['value'] = $this->calculateValue($word); 
+				$node['text'] = $word;
+				$node['value'] = $this->calculateValue($word);
 				if(!isset($triangle[1])) $triangle[1] = array();
 				$triangle[1][] = $node;
-				
+
 				// ???	= array();
-				// ???	
-				$last_phrases = $phrases; 
+				// ???
+				$last_phrases = $phrases;
 			}
 
 			//echo '<pre>'.print_r($triangle,true).'</pre>';
@@ -70,7 +70,7 @@
 			$matches = array();
 
 			// for each new word
-			foreach($this->text as $word) { 
+			foreach($this->text as $word) {
 				//echo $word.' ';
 				$word_value = $this->calculateValue($word);
 
@@ -82,16 +82,18 @@
 				} elseif($word_value > $value) {
 					$word_combos = array(); // Gone bust, reset combos.
 				} elseif($word_value != 0) {
-					// else if value of word is below search value 
+					// else if value of word is below search value
 					// then attempt to add of all current word combos
 					foreach($word_combos as $key => $word_combo) {
-						$words = $word_combo.' '.$word;
-						$combo_value = $this->calculateValue($words);	
+						$words = trim($word_combo.' '.$word);
+						$combo_value = $this->calculateValue($words);
 						// If matches value, add combo to matches array then discard from current array
-						if($combo_value == $value) {		
-							//echo ' Multi word match ['.$words.':'.$combo_value.'] = '.$value.' ';					
-							$matches[] = $words;
-							unset($word_combos[$key]);
+						if($combo_value == $value) {
+							//echo ' Multi word match ['.$words.':'.$combo_value.'] = '.$value.' ';
+							if(!in_array($words,$matches)) {
+								$matches[] = $words; //add to list of matches if not a duplicate
+							}
+							unset($word_combos[$key]); // either way stop searching
 						} elseif($combo_value > $value) {
 							// If over value, simply discard, no match found.
 							unset($word_combos[$key]);
@@ -99,14 +101,14 @@
 							// If under value, keep for possible match with future words
 							$word_combos[$key] = $words;
 						}
-					}					
+					}
 					// Add word on its own as a new combo
 					$word_combos[] = $word;
 				}
 			}
 
 			// return list of matches
-			return $matches;				
+			return $matches;
 		}
 
 		public function getMatchesFromTextNegValues($value) {
@@ -119,7 +121,7 @@
 			$matches = array();
 
 			// for each new word
-			foreach($this->text as $word) { 
+			foreach($this->text as $word) {
 				//echo $word.' ';
 				$word_value = $this->calculateValue($word);
 
@@ -128,17 +130,19 @@
 					//echo ' Single word match ['.$word.':'.$word_value.'] = '.$value.' ';
 					$matches[] = $word;
 					$word_combos = array(); // Can't go higher, reset combos.
-				} 
+				}
 
-				// else if value of word is below search value 
+				// else if value of word is below search value
 				// then attempt to add of all current word combos
 				foreach($word_combos as $key => $word_combo) {
-					$words = $word_combo.' '.$word;
-					$combo_value = $this->calculateValue($words);	
+					$words = trim($word_combo.' '.$word);
+					$combo_value = $this->calculateValue($words);
 					// If matches value, add combo to matches array then discard from current array
-					if($combo_value == $value) {		
-						//echo ' Multi word match ['.$words.':'.$combo_value.'] = '.$value.' ';					
-						$matches[] = $words;
+					if($combo_value == $value) {
+						//echo ' Multi word match ['.$words.':'.$combo_value.'] = '.$value.' ';
+						if(!in_array($words,$matches)) {
+							$matches[] = trim($words); //add to list of matches if not a duplicate
+						}
 						unset($word_combos[$key]);
 					} elseif(substr_count($words,' ') > $max_words) {
 						// If over value, simply discard, no match found.
@@ -147,14 +151,14 @@
 						// If under value, keep for possible match with future words
 						$word_combos[$key] = $words;
 					}
-				}					
+				}
 				// Add word on its own as a new combo
 				$word_combos[] = $word;
-				
+
 			}
 
 			// return list of matches
-			return $matches;				
+			return $matches;
 		}
 	}
 ?>
