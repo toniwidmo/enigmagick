@@ -1,6 +1,8 @@
 <div class="results">
 <div class="matches">
-	<?php if($this->search_value > 0) { ?>
+	<?php if($this->search != '') { 
+		$this->form_action = "advanced.php";
+	?>
 		Matches from <?php echo $this->source_name; ?>:
 
 		<?php if(empty($this->matches)) { ?>
@@ -11,6 +13,7 @@
 				foreach($this->matches as $match) {
 					echo '<li><a href="'.$this->form_action.'?search_text='.$match;
 					if(isset($this->file_source)) { echo '&file_source='.$this->file_source; } 
+					if(isset($this->cipher)) { echo '&cipher='.$this->cipher; } 
 					echo '">'.$match.'</a></li>';
 				}
 			?>

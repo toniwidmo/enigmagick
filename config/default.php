@@ -1,4 +1,4 @@
-<?php	
+<?php
 	if(!defined('ENIGMA_SITE_TITLE')) DEFINE('ENIGMA_SITE_TITLE', 'EnigMagick');
 	if(!defined('ENIGMA_THEME')) DEFINE('ENIGMA_THEME', 'default');
 	if(!defined('ENIGMA_DEBUG')) DEFINE('ENIGMA_DEBUG', false);
@@ -18,6 +18,6 @@
 	$text['short_title'] = 'Liber AL';
 	$text['title'] = 'Liber AL vel LEGIS';
 	$text['author'] = 'Aiwass';
-	$text['about'] = 'A book written by Aiwass, a spirit channelled by Aleister Crowley, and from which the NAEQ ciphers are derived. The primary Holy book of Thelema.';
+	$text['about'] = 'A book written by Aiwass, a spirit channelled by Aleister Crowley, and from which the EQ ciphers are derived. The primary Holy book of Thelema.';
 	$ENIGMA_texts[$text['file']] = $text;
 ?>

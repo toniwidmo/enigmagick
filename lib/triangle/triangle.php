@@ -11,6 +11,9 @@
 			?>
 		</tr>
 	<?php
+		if(isset($this->file_source) || isset($this->cipher)) {
+			$this->form_action = "advanced.php";
+		}
 		$indent = 0;
 		$alt = false;
 		foreach($this->triangle as $row) {
@@ -31,7 +34,14 @@
 			<?php
 					}
 			?>
-			<td><a href="<?php echo $this->form_action; ?>?search_text=<?php echo $node['text']; ?><?php if(isset($this->file_source)) { ?>&file_source=<?php echo $this->file_source; } ?>" title="<?php echo $node['text']; ?>"><?php echo $node['value']; ?></a></td>
+			<td><a href="<?php echo $this->form_action; ?>?search_text=<?php echo $node['text']; 
+				if(isset($this->file_source) && $this->file_source != '') { 
+					?>&file_source=<?php echo $this->file_source; 
+				}
+				if(isset($this->cipher) && $this->cipher != '') {
+					?>&cipher=<?php echo $this->cipher;
+				} 
+				?>" title="<?php echo $node['text']; ?>"><?php echo $node['value']; ?></a></td>
 			<?php
 					if(!$alt) {
 			?>

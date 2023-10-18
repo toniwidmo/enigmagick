@@ -2,27 +2,27 @@ body {
 	background: linear-gradient(to bottom, #333, #333 50%, #3a3a3a 50%, #3a3a3a);
  	background-size: auto;
   	background-size: 100% 4px;
-	color: #ffcccc;
-	text-shadow: 0 0 10px #ffa5a5;
+	color: #ffedcc;
+	text-shadow: 0 0 10px #ffa500;
 
 	font-size: 1.5em;
   	padding: 0em 0.25em;
 }
 
-.page {
+.page {	
 	width: 100%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 .header {
-	border: 1px solid #fee;
+	border: 1px solid #fec;
 	border-radius: 5px;
 	padding: 5px;
 	width: 95%;
 	margin-top: 5px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 h1 {
@@ -33,20 +33,22 @@ h2 {
 }
 
 .content {
+	border-radius: 5px;
 	padding: 5px;
 	width: 95%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 .quote {
+	border-radius: 5px;
 	padding: 5px;
 	width: 95%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 a {
@@ -71,7 +73,7 @@ a:hover {
 }
 .menu ul li a {
 	float: left;
-	background-color: #655;
+	background-color: #666;
 	color:#fff;
 	text-decoration:none;
 	font-weight:bold;
@@ -82,7 +84,7 @@ a:hover {
 }
 .menu ul li a:visited {
 	float: left;
-	background-color: #655;
+	background-color: #666;
 	color:#fff;
 	text-decoration:none;
 	font-weight:bold;
@@ -93,7 +95,7 @@ a:hover {
 }
 .menu ul li a:hover, .menu ul li a:active, .menu ul li .current {
 	float: left;
-	background-color: #855;
+	background-color: #588;
 	color:#fff;
 	text-decoration:none;
 	font-weight:bold;
@@ -104,21 +106,24 @@ a:hover {
 }
 
 .search-form {
+	border-radius: 5px;
 	padding: 5px;
 	width: 95%;
 	margin-top: 5px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 .results {
+	border: 1px solid #fec;
+	border-radius: 5px;
 	padding: 15px;
 	padding-left: 30px;
 	width: 95%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
 .results .results-triangle {
@@ -127,5 +132,6 @@ a:hover {
 
 .results .results-triangle table {
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
+

@@ -13,7 +13,7 @@ Latest Version
 
 Requirements
 ------------
-1. Any webserver capable of running PHP5
+1. Any web server capable of running PHP5 or later. Tested on PHP7.4 and PHP8.1
 
 User Features
 -------------
@@ -27,14 +27,10 @@ User Features
 * Values in triangles link to a search on the phrase they total
 * Each match links to a search on itself, so you can see its triangle
 
-Hidden Features
----------------
-* Gematria of Nothing matches currently in testing. To test, manually
-add &cipher=gon to the querystring of any search in advanced mode. Not
-currently available in default or custom text modes.
-
 Admin Features
 --------------
+
+Admin features are via editing a config file, nothing too fancy
 * Fully theme-able. Web admins can theme the tool to match their websites.
 * All menu items can be disabled. Activate only the features you need.
 * Install as many custom texts as you require
@@ -42,7 +38,9 @@ Admin Features
 
 Attribution
 -----------
-EnigMagick has so far been developed by Anton Channing, who also hosts a demo
-of the software in action here: http://kiamagic.com/enigmagick
+EnigMagick has so far been developed by Toni Widmo.
 
-You can download the software from https://sourceforge.net/projects/enigmagick/
+Toni would like to thank Soror 826 for hosting a demo of the software on:
+https://computers.faith/enigmagick
+
+You can download the software from https://github.com/toniwidmo/enigmagick/

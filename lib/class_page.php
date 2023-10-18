@@ -5,6 +5,7 @@
 		
 		public $theme = ENIGMA_THEME;
 		public $search = 'EnigMagick';
+		public $cipher = "";
 
 		public $css = array('enigmagick.css');
 

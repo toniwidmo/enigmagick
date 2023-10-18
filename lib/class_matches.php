@@ -17,14 +17,14 @@
 		}
 
 		function getMatches() {
-			switch($this->cipher) {
+			switch(strtolower($this->cipher)) {
 				case 'gon':
 					includeClass('class_cipher_gon.php');
-					$cipher = new cipher_gon('',$this->file_source);
+					$cipher = new cipher_gon($this->text_source,$this->file_source);
 					break;
 				default:
 					includeClass('class_cipher_alw.php');
-					$cipher = new cipher_alw('',$this->file_source);
+					$cipher = new cipher_alw($this->text_source,$this->file_source);
 					break;
 			}
 
@@ -33,7 +33,7 @@
 				$this->search_value = $this->search;
 			}
 
-			$this->matches = $cipher->getMatchesFromText($this->search_value);			
+			$this->matches = $cipher->getMatchesFromText($this->search_value);
 		}
 
 		function getFirstMatch() {

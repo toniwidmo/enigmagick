@@ -3,6 +3,7 @@
 
 	class SearchForm extends Content {
 		public $folder = 'form';
+		public $cipher = '';
 		public $text_source = '';
 		public $file_source = '';
 		public $form_action = 'index.php';

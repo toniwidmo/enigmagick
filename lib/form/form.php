@@ -11,6 +11,13 @@
 			<?php } ?>
 		</select>
 	<?php } ?>
+
+<?php print_r($this->cipher); ?>
+
+	<select name="cipher">
+		<option value="">ALW</option>
+		<option value="GoN" <?php if($this->cipher == 'GoN') { ?>selected<?php } ?>>Gematria of Nothing</option>
+	</select>
 	<p><input type="submit" value="Apply Cipher" />
 	</form>
 </div>

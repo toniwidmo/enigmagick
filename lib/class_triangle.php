@@ -17,7 +17,7 @@
 		}
 
 		function getValueTriangle() {
-			switch($this->cipher) {
+			switch(strtolower($this->cipher)) {
 				case 'gon':
 					includeClass('class_cipher_gon.php');
 					$cipher = new cipher_gon('',$this->file_source);

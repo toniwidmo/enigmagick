@@ -8,8 +8,9 @@
 
 	$search = '';
 	$text_source = '';
-	if(isset($_REQUEST["search_text"])) $search = $_REQUEST["search_text"]; 
-	if(isset($_REQUEST["text_source"])) $text_source = $_REQUEST["text_source"]; 
+	if(isset($_REQUEST["search_text"])) $search = $_REQUEST["search_text"];
+	if(isset($_REQUEST["text_source"])) $text_source = $_REQUEST["text_source"];
+	if(isset($_REQUEST["cipher"])) $cipher = $_REQUEST["cipher"];
 
 	require_once(BASE_PATH.'/config/config.php');
 
@@ -18,14 +19,16 @@
 		$source_name = 'Liber Al';
 	} else {
 		$source_name = 'Custom Text';
-	} 
+	}
 
 	$page->search = $search;
-	$page->title = 'Search on Custom Text';	
+	$page->title = 'Search on Custom Text';
+	$page->cipher = $cipher;
 
 	includeClass('class_form.php');
 	$form = new SearchForm($search);
 	$form->showTextSource();
+	$form->cipher = $cipher;
 	$form->text_source = $text_source;
 	$form->form_action = 'custom_text.php';
 	$page->content[] = $form;
@@ -34,12 +37,14 @@
 	$matches = new Matches($search);
 	$matches->text_source = $text_source;
 	$matches->source_name = $source_name;
+	$matches->cipher = $cipher;
 	$matches->getMatches();
 
 	includeClass('class_triangle.php');
 	$triangle = new Triangle($search);
+	$triangle->cipher = $cipher;
 	$triangle->first_match = $matches->getFirstMatch();
-	
+
 	$page->content[] = $triangle;
 	$page->content[] = $matches;
 
