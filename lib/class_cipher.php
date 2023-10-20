@@ -69,6 +69,10 @@
 		public function getUniqueHash($words) {
 			$hash = strtoupper($words);
 			$hash = preg_replace("#[[:punct:]]#", "", $hash);
+			$hash = preg_replace('~[[:cntrl:]]~', '', $hash); // remove all control chars
+			$hash = trim($hash,'"'); // double quotes "
+			$hash = trim($hash,'“'); // double quotes “
+			$hash = trim($hash,'”'); // double quotes ”
 
 			return $hash;
 		}
@@ -82,6 +86,7 @@
 			// for each new word
 			foreach($this->text as $word) {
 				//echo $word.' ';
+				$word = preg_replace('~[[:cntrl:]]~', '', $word); // remove all control chars
 				$word_value = $this->calculateValue($word);
 				$word_hash = $this->getUniqueHash($word);
 

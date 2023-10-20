@@ -9,12 +9,14 @@
 	$search = '';
 	$text_source = '';
 	$source_name = 'Liber AL';
-	if(isset($_REQUEST["search_text"])) $search = $_REQUEST["search_text"]; 
+	$cipher = '';
+	if(isset($_REQUEST["search_text"])) $search = $_REQUEST["search_text"];
+	if(isset($_REQUEST["cipher"])) $cipher = $_REQUEST["cipher"]; 
 
-	require_once(BASE_PATH.'/config/config.php');	
+	require_once(BASE_PATH.'/config/config.php');
 
 	$page->search = $search;
-	$page->title = 'Search on Liber AL';	
+	$page->title = 'Search on Liber AL';
 
 	includeClass('class_form.php');
 	$form = new SearchForm($search);
@@ -30,7 +32,7 @@
 	includeClass('class_triangle.php');
 	$triangle = new Triangle($search);
 	$triangle->first_match = $matches->getFirstMatch();
-	
+
 	$page->content[] = $triangle;
 	$page->content[] = $matches;
 
