@@ -68,8 +68,8 @@
 		// and eliminating duplicates. It strips away punctuation and capitalises.
 		public function getUniqueHash($words) {
 			$hash = strtoupper($words);
-			$hash = preg_replace("#[[:punct:]]#", "", $hash);
-			$hash = preg_replace('~[[:cntrl:]]~', '', $hash); // remove all control chars
+			$hash = trim(preg_replace("#[[:punct:]]#", "", $hash));
+			$hash = trim(preg_replace('~[[:cntrl:]]~', '', $hash)); // remove all control chars
 			$hash = trim($hash,'"'); // double quotes "
 			$hash = trim($hash,'“'); // double quotes “
 			$hash = trim($hash,'”'); // double quotes ”
