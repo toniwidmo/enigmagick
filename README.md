@@ -8,7 +8,7 @@ require a database.
 
 Latest Version
 --------------
-0.4.1 Alpha
+0.4.2 Alpha
 
 
 Requirements
