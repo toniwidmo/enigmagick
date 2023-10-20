@@ -1,0 +1,1142 @@
+tekmage
+Zeus
+Thor
+Odin
+Ra
+Aphrodite
+Apollo
+Artemis
+Freyja
+Vishnu
+Shiva
+Anubis
+Quetzalcoatl
+Horus
+Athena
+Hera
+Krishna
+Amaterasu
+Mithra
+Cthulhu
+Yggdrasil
+Loki
+Kali
+Ganesha
+Tiamat
+Oshun
+Ereshkigal
+Manannan mac Lir
+Huitzilopochtli
+Tezcatlipoca
+Baldur
+Persephone
+Njord
+Thor
+Durga
+Lugh
+Diana
+Frigg
+Brigid
+Cernunnos
+Hermes
+Pan
+Ishtar
+Inanna
+Ereshkigal
+Gilgamesh
+Enkidu
+Astarte
+Marduk
+Rama
+Sita
+Saraswati
+Lakshmi
+Ganga
+Brahma
+Kamadhenu
+Tara
+Kali
+Dionysus
+Apollo
+Hades
+Demeter
+Hecate
+Ares
+Eros
+Thanatos
+Heimdall
+Fenrir
+Jormungandr
+Norse
+Greek
+Egyptian
+Hindu
+Norse
+Celtic
+Roman
+Mayan
+Aztec
+Chinese
+Japanese
+Native American
+Finnish
+Sumerian
+Babylonian
+Zoroastrian
+Mesopotamian
+Inuit
+Aboriginal
+Shangdi
+Allah
+Jehovah
+Brahma
+Isis
+Gaia
+The Morrigan
+Osiris
+Hades
+Freyr
+Demeter
+Ares
+Dionysus
+Hecate
+Loki
+Kali
+Ganesha
+Tiamat
+Oshun
+Ereshkigal
+Manannan mac Lir
+Huitzilopochtli
+Tezcatlipoca
+Baldur
+Persephone
+Njord
+Thor
+Durga
+Lugh
+Diana
+Frigg
+Brigid
+Cernunnos
+Hermes
+Pan
+Ishtar
+Inanna
+Ereshkigal
+Gilgamesh
+Enkidu
+Astarte
+Marduk
+Rama
+Sita
+Saraswati
+Lakshmi
+Ganga
+Brahma
+Kamadhenu
+Tara
+Kali
+Dionysus
+Apollo
+Hades
+Demeter
+Hecate
+Ares
+Eros
+Thanatos
+Heimdall
+Fenrir
+Jormungandr
+Gabriel
+Michael
+Raphael
+Uriel
+Metatron
+Azrael
+Seraphiel
+Zadkiel
+Jophiel
+Raguel
+Chamuel
+Barachiel
+Selaphiel
+Raziel
+Cassiel
+Zaphkiel
+Sandalphon
+Haniel
+Zerachiel
+Ophaniel
+Kerubiel
+Munkar
+Nakir
+Malak al-Maut
+Harut
+Marut
+Iblis
+Izra'il
+Israfil
+Azazil
+Jibril
+Mikail
+Ridwan
+Darda'il
+Kiraman Katibin
+Aleister Crowley
+Eliphas Levi
+Madame Blavatsky
+John Dee
+Dion Fortune
+Israel Regardie
+A.E. Waite
+Gerald Gardner
+Anton LaVey
+Manly P. Hall
+Arthur Edward Waite
+Franz Bardon
+Raymond Buckland
+Aliester Crowley
+Jack Parsons
+Robert Anton Wilson
+Papus
+Regardie
+Paracelsus
+Levi
+Mathers
+Aiwass
+Blavatsky
+Dionysian
+Egregore
+Thelema
+Necronomicon
+Occultism
+Hermeticism
+Alchemy
+Esotericism
+Magick
+Ceremonial
+Kabbalah
+Divination
+Grimoire
+Sorcery
+Pentagram
+Wicca
+Sabbat
+Shamanism
+Paganism
+Druid
+Runes
+Sigil
+Necromancy
+Astrology
+Psychic
+Metaphysical
+Hexagram
+Talisman
+Ouija
+Ritual
+Pentacle
+Coven
+Firewall
+Encryption
+Malware
+Phishing
+Intrusion
+VPN
+Zero-day
+Penetration
+Cyberattack
+Authentication
+Vulnerability
+Cybercrime
+Hacking
+Endpoint
+DDoS
+IDS/IPS
+Patch
+Cybersecurity
+SIEM
+Ransomware
+Botnet
+Exploit
+Backdoor
+Social Engineering
+Firewall
+Antivirus
+Network Security
+Cryptography
+Zero Trust
+Incident Response
+Security Awareness
+Access Control
+Two-Factor Authentication
+Security Assessment
+Penetration Testing
+White Hat
+Black Hat
+Patch Management
+Security Policy
+Biometric Authentication
+Digital Forensics
+Security Breach
+Threat Intelligence
+Security Operations
+Phishing Attack
+Secure Sockets Layer (SSL)
+Virtual Private Network (VPN)
+Denial of Service (DoS)
+Internet of Things (IoT) Security
+Cyber Resilience
+Firewall Rule
+Security Awareness Training
+Security Audit
+Security Patch
+Security Incident
+Security Compliance
+Cybersecurity Framework
+Security Information and Event Management (SIEM)
+Vulnerability Assessment
+Security Token
+Security Token Service
+Security Tokenization
+Security Risk Assessment
+Security Tokenization as a Service (STaaS)
+Cybersecurity Maturity Model Certification (CMMC)
+Cyber Hygiene
+Zero-Day Exploit
+Rogue Access Point
+Network Forensics
+Identity and Access Management (IAM)
+Multi-Factor Authentication (MFA)
+Security Information Management (SIM)
+Security Operations Center (SOC)
+Firewall Configuration
+Security Breach Response
+Security Incident Management
+Intrusion Detection System (IDS)
+Intrusion Prevention System (IPS)
+Virus Definition
+Security Patch Management
+Security Best Practices
+Security Awareness Program
+Security Training
+Incident Response Plan
+Phishing Email
+Malware Analysis
+Endpoint Security
+Network Access Control (NAC)
+Data Loss Prevention (DLP)
+Security Token
+Security Tokenization Service
+Firewall Management
+Firewall Security Policy
+Security Policy Enforcement
+Security Policy Audit
+Security Vulnerability Assessment
+Security Risk Management
+Threat Assessment
+Threat Intelligence Feed
+Security Operations Dashboard
+Cybersecurity Assessment
+Security Posture
+Thelema
+Aleister Crowley
+The Book of the Law
+Magick
+Occultism
+Golden Dawn
+Ritual
+Tarot
+Kabbalah
+Hermeticism
+Ritual Magick
+Rituals of the Pentagram
+Thoth Tarot Deck
+Sacred Texts
+Occult Symbols
+Mysticism
+Gnosticism
+Astral Projection
+Enochian Magick
+Holy Guardian Angel
+True Will
+Aiwass
+Liber AL vel Legis
+The Great Work
+Ordo Templi Orientis (OTO)
+Thelemite
+Scarlet Woman
+Aeon of Horus
+Agape
+Babalon
+Chaos Magick
+Sigil
+Sigilization
+Sparean Sigil Magick
+Chaos Magician
+Peter J. Carroll
+Psychonaut
+Paradigm Shift
+Belief Systems
+Reality Tunnel
+Postmodern Magick
+Quantum Magick
+Pop Culture Magick
+Chaosphere
+UFO Cults
+Heaven's Gate
+Raelism
+Unarius
+Aetherius Society
+Contactees
+Extraterrestrial Beings
+Spiritualism
+Mediumship
+Séance
+Spirit Communication
+Ectoplasm
+Automatic Writing
+Spirit Guide
+Spiritualist Church
+Fox Sisters
+Spirit Photography
+Paranormal Phenomena
+Psychic Powers
+Table-Turning
+William James
+Arthur Conan Doyle
+Sir Arthur Conan Doyle
+Harry Houdini
+Ectoplasmic Manifestation
+Psychic Research
+Egregore
+Group Mind
+Collective Consciousness
+Thoughtform
+Tulpa
+Servitor
+Thought-Form Magick
+Godforms
+Deity
+Invocation
+Evocation
+Goetia
+Theurgia
+Lesser Banishing Ritual of the Pentagram
+Greater Ritual of the Pentagram
+Elemental Spirits
+Planetary Spirits
+Archangels
+Archdaemon
+Solomonic Magick
+Abramelin Operation
+Golden Dawn Grades
+Neophyte
+Zelator
+Practicus
+Philosophus
+Adeptus Minor
+Rosicrucianism
+Rosy Cross
+Hermetic Order of the Golden Dawn
+Theosophy
+Madame Blavatsky
+Alice Bailey
+Esotericism
+Mystery Schools
+Initiatory Traditions
+Western Esotericism
+Occult Organizations
+Illuminati
+Freemasonry
+Ouija Board
+Scrying
+Crystal Ball
+Occult Symbols
+Pentagram
+Hexagram
+Eye of Horus
+Ankh
+Tree of Life
+Chakras
+Kundalini
+Magickal Tools
+Wand
+Athame
+Chalice
+Pentacle
+Tarot Cards
+Major Arcana
+Minor Arcana
+Divination
+Astrology
+Numerology
+Alchemy
+Elixirs
+Philosopher's Stone
+Astral Travel
+Sacred Geometry
+Occult Art
+Tarot Readings
+Cartomancy
+Runes
+Crystal Magick
+Candle Magick
+Herbal Magick
+Moon Phases
+Sun Signs
+Esbat
+Sabbat
+Ritual Robes
+Altar Tools
+Chalice and Paten
+Wand and Sword
+Book of Shadows
+Grimoire
+Pentacle
+Incense
+Athame
+Bell
+Cauldron
+Boline
+Crystal Ball
+Scrying Mirror
+Divination Rods
+Tarot Deck
+Runes
+Magick Circle
+Pentagram Ritual
+Invocation of the Four Elements
+Anointing Oil
+Sabbat Celebrations
+Esbat Rituals
+Beltane
+Samhain
+Mabon
+Imbolc
+Ostara
+Yule
+Lammas
+Litha
+Lughnasadh
+Wicca
+Witchcraft
+Witch
+Witch's Familiar
+High Priestess
+Coven
+Wheel of the Year
+Book of Shadows
+Wiccan Rede
+Triple Goddess
+Horned God
+Elemental Correspondences
+Paganism
+Druidry
+Heathenry
+Asatru
+Odinism
+Norse Mythology
+Runestones
+Seidr
+Blot
+Heathen Calendar
+Ancestors
+Nature Spirits
+Landvættir
+The Nine Worlds
+Wyrd
+Havamal
+Elder Futhark
+Norse Gods and Goddesses
+Odin
+Thor
+Freyja
+Frigg
+Loki
+Hel
+Tyr
+Freyr
+Aegir
+Ran
+The Wild Hunt
+Asgard
+Midgard
+Vanaheim
+Jotunheim
+Alfheim
+Svartalfheim
+Muspelheim
+Niflheim
+Bifrost
+Valhalla
+Folkvangr
+Einherjar
+Norns
+Yggdrasil
+World Tree
+Nine Noble Virtues
+Heathenry Symbols
+Wiccan Altar
+Wand and Athame
+Circle Casting
+Esoteric Orders
+Eastern Mysticism
+Taoism
+Buddhism
+Zen
+Yoga
+Chakras
+Kundalini
+Reiki
+Tantra
+Mantras
+Mudras
+Tai Chi
+Feng Shui
+I Ching
+Herbs and Crystals
+Essential Oils
+Energy Healing
+Astral Plane
+Etheric Body
+Astral Projection
+Lucid Dreaming
+Psychic Abilities
+Clairvoyance
+Telepathy
+Precognition
+Retrocognition
+Psychometry
+Akashic Records
+Aura
+Chakra Healing
+Crystal Healing
+Sound Healing
+Shamanism
+Spirit Animal
+Vision Quest
+Totem
+Medicine Wheel
+Ayahuasca
+Peyote
+Native American Spirituality
+Sweat Lodge
+Medicine Man
+Spirit Guides
+Ancestors
+Medicine Bag
+Visionary Art
+Huichol
+San Pedro Cactus
+Huachuma
+Ayahuasca Ceremony
+Ayahuasca Retreat
+Santo Daime
+Shamanic Journey
+Tarot Reading
+Crystal Grid
+Pendulum
+Oracle Cards
+Runecasting
+I Ching Divination
+Dream Interpretation
+Astrological Chart
+Numerology Report
+Aura Reading
+Past Life Regression
+Reiki Healing Session
+Crystal Healing Session
+Sound Bath
+Shamanic Healing
+Energy Clearing
+Divination Tools
+Tarot Deck
+Crystal Ball
+Runes
+I Ching Coins
+Pendulum
+Ouija Board
+Scrying Mirror
+Tarot Spreads
+Celtic Cross
+Tree of Life
+Astrological Houses
+Planetary Influences
+Moon Phases
+Solar Eclipse
+Lunar Eclipse
+Mercury Retrograde
+Zodiac Signs
+Sun Sign
+Moon Sign
+Rising Sign
+Ascendant
+Natal Chart
+Aspects
+Transits
+Retrogrades
+Birthstones
+Color Magick
+Candle Colors
+Herb Correspondences
+Crystal Correspondences
+Moon Magic
+Lunar Phases
+New Moon
+Full Moon
+Waxing Moon
+Waning Moon
+Blue Moon
+Blood Moon
+Harvest Moon
+Supermoon
+Penumbral Eclipse
+Esbat Ritual
+Sabbat Celebration
+Wheel of the Year
+Wiccan Sabbats
+Esotericism
+Esoteric Knowledge
+Occult Philosophy
+Esoteric Practices
+Esoteric Traditions
+Esoteric Symbols
+Alchemical Transformation
+Astral Travel
+Spiritual Awakening
+Enlightenment
+Inner Alchemy
+Secret Societies
+Freemasonry
+Rosicrucianism
+Illuminati
+Mystery Schools
+Hermeticism
+Theosophy
+Kabbalah
+Gnosticism
+Aether
+Astral Plane
+Etheric Body
+Astral Projection
+Out-of-Body Experience
+Near-Death Experience
+Akashic Records
+Higher Self
+Soul Retrieval
+Theurgy
+Mystical Experience
+Mystical Union
+Metaphysics
+Esoteric Arts
+Divinatory Arts
+Occult Art
+Symbolism
+Sacred Geometry
+Numerology
+Astrology
+Tarot
+Runes
+Scrying
+Crystal Ball Gazing
+Dreamwork
+Shamanic Journeying
+Psychic Development
+Channeling
+Mediumship
+Akashic Records Reading
+Past-Life Regression
+Divination
+Tarot Reading
+Oracle Cards
+I Ching Divination
+Pendulum
+Astrology Chart
+Numerology Report
+Palmistry
+Tea Leaf Reading
+Crystal Ball Reading
+Runecasting
+Aura Reading
+Psychometry
+Dowsing
+Cartomancy
+Geomancy
+Bibliomancy
+Palmistry
+Chiromancy
+Chirology
+Metoposcopy
+Psychiromancy
+Onomancy
+Pyromancy
+Hydromancy
+Lithomancy
+Astrology
+Natal Chart
+Birth Chart
+Horoscope
+Zodiac Signs
+Sun Sign
+Moon Sign
+Rising Sign
+Planets
+Houses
+Aspects
+Transits
+Progressions
+Solar Return
+Synastry
+Composite Chart
+Horary Astrology
+Electional Astrology
+Medical Astrology
+Mundane Astrology
+Esoteric Astrology
+Vedic Astrology
+Western Astrology
+Chinese Astrology
+Tibetan Astrology
+Mayan Astrology
+Native American Astrology
+Egyptian Astrology
+Greek Astrology
+Roman Astrology
+Arabic Astrology
+Persian Astrology
+Hindu Astrology
+Jyotish
+Chinese Zodiac
+Rat
+Ox
+Tiger
+Rabbit
+Dragon
+Snake
+Horse
+Goat
+Monkey
+Rooster
+Dog
+Pig
+I Ching
+Hexagrams
+Coins
+Trigrams
+Oracle
+Yi Jing
+Zhouyi
+Wilhelm-Baynes Translation
+Tao Te Ching
+Taoism
+Laozi
+Wu Wei
+Yin and Yang
+Feng Shui
+Bagua
+Taoist Alchemy
+Neidan
+Daoist Immortality
+Tai Chi Chuan
+Zeus
+Aphrodite
+Hermes
+Athena
+Hades
+Anubis
+Ra
+Osiris
+Isis
+Horus
+Amaterasu
+Susanoo
+Izanami
+Izanagi
+Amun-Ra
+Bastet
+Thoth
+Loki
+Freyja
+Odin
+Thor
+Aegir
+Freyr
+Frigg
+Hel
+Heimdall
+Njord
+Tyr
+Apollo
+Artemis
+Dionysus
+Hera
+Poseidon
+Demeter
+Persephone
+Hecate
+Ares
+Hermes Trismegistus
+Odin the Allfather
+Ra-Horakhty
+Nut (Goddess of the Sky)
+Shu (God of Air)
+Geb (God of Earth)
+Hathor
+Thoth
+Anansi
+Olorun
+Eshu
+Yemoja
+Orunmila
+Obatala
+Ogun
+Mami Wata
+Legba
+Sango
+Amadioha
+Ogoun
+Damballa
+Papa Legba
+Lugh
+Cernunnos
+Brigid
+Morrigan
+Danu
+Manannan Mac Lir
+Cuchulainn
+Aengus Og
+Nuada
+Balder
+Freyr
+Tyr
+Skadi
+Ullr
+Loki
+Eir
+Idun
+Mimir
+Epona
+Cernunnos
+Brigid
+Arianrhod
+Taliesin
+Merlin
+Morgana
+Gwyn ap Nudd
+Rhiannon
+Cailleach
+Ceridwen
+Ogma
+Dagda
+Lir
+Bran the Blessed
+Goibniu
+Manannan
+Balor
+Nuada
+Angus Og
+Scathach
+Druid
+Druidess
+Druantia
+Nantosuelta
+Cernunnos
+Elen of the Ways
+Belenus
+Lugh
+Epona
+Cernunnos
+The Dagda
+Brigid
+Morrigu
+Lughnasadh
+Samhain
+Beltane
+Imbolc
+Taliesin
+Ceridwen
+Merlin
+Myrddin
+Rhiannon
+Gwydion
+Arianrhod
+Pwyll
+Manawydan
+Branwen
+Math ap Mathonwy
+Pryderi
+Blodeuwedd
+Efnisien
+Bran the Blessed
+Gofannon
+Idris
+Gwyddno Garanhir
+Olwen
+Culhwch
+Gwyn ap Nudd
+Rhyannon
+Bendigeidfran
+Mabon ap Modron
+Cernunnos
+Brigid
+Morrigan
+An Morrígan
+Dagda
+Lugh
+Manannan Mac Lir
+Belenus
+Epona
+Nuada
+Aengus Og
+Danu
+Taliesin
+Merlin
+King Arthur
+Lady of the Lake
+Guinevere
+Gawain
+Percival
+Mordred
+Morgan le Fay
+Nimue
+Lancelot
+Tristan
+Iseult
+Galahad
+Yvain
+Bors
+Gaheris
+Bedivere
+Geraint
+Elaine
+Balin
+Gareth
+Agravain
+Melisandre
+Peredur
+Owain
+Culhwch
+Lleu Llaw Gyffes
+Blodeuwedd
+Rhiannon
+Mabinogi
+Culhwch and Olwen
+Taliesin
+Preiddeu Annwfn
+Llywarch Hen
+Hywel Dda
+Gwerful Mechain
+Cynddelw Brydydd Mawr
+Dafydd ap Gwilym
+Owain Glyndwr
+Henry VII
+Edward I
+Llywelyn the Great
+Rhys ap Gruffydd
+Owain ap Gruffydd
+Cynan ap Rhodri
+Iolo Morganwg
+Gruffydd ap Llywelyn
+Einion ap Gwalchmai
+Hywel Dafydd ap Llywelyn
+Llywelyn ap Gruffydd
+Dafydd ap Gruffydd
+Rhys ap Tewdwr
+Owain ap Dyfnwal
+Cadwaladr ap Cadwallon
+Elisedd ap Gwylog
+Idwal Iwrch
+Maredudd ap Owain
+Gruffydd ap Cynan
+Rhodri the Great
+Cadell ap Rhodri
+Ceredig ap Cunedda
+Einion Yrth
+Cunedda Wledig
+Gwynedd
+Dyfed
+Powys
+Morgannwg
+Glywysing
+Deheubarth
+Gwent
+Seisyllwg
+Elmet
+Ystrad Clud
+Galloway
+Manx
+Strathclyde
+Gododdin
+Rheged
+Powys
+Ynys Mon
+Llyn Peninsula
+Menai Strait
+Dyfi Estuary
+Mawddach Estuary
+Glaslyn Estuary
+Afon Dwyryd
+Dysynni Estuary
+Afon Mawddach
+River Dee
+River Clwyd
+River Elwy
+River Conwy
+River Llugwy
+River Lledr
+River Rhaeadr
+River Roe
+River Skerne
+River Tees
+River Ure
+River Nidd
+River Ouse
+River Humber
+River Ancholme
+River Witham
+River Welland
+River Nene
+River Great Ouse
+River Cam
+River Stour
+River Orwell
+River Deben
+River Alde
+River Blyth
+River Waveney
+River Yare
+River Wensum
+River Bure
+River Thurne
+River Ant
+River Wissey
+River Little Ouse
+River Stour
+River Blackwater
+River Colne
+River Chelmer
+River Thames
+River Kennet
+River Lambourn
+River Evenlode
+River Cherwell
+River Thame
+River Ock
+River Cole
+River Ray
+River Mole
+River Wey
+River Tillingbourne
+River Wandle
+River Hogsmill
+River Darent
+River Cray
+River Ravensbourne
+River Pool
+River Quaggy
+River Beck
+River Moselle
+River Westbourne
+River Effra
