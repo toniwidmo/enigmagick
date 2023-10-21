@@ -2,7 +2,7 @@
 	class Page {
 		public $site_title = ENIGMA_SITE_TITLE;
 		public $title = 'page title';
-		
+
 		public $theme = ENIGMA_THEME;
 		public $search = 'EnigMagick';
 		public $cipher = "";
@@ -12,15 +12,15 @@
 		public $header_content = array();
 		public $content = array();
 		public $footer_content = array();
-		
+
 		function __construct($search) {
 			$this->search = $search;
 
 			includeClass('class_menu.php');
 			$menu = new Menu($this->search);
 			$menu->menu = 'main';
-			if(ENIGMA_LIBER_AL) $menu->menu_items['Liber AL'] = 'index.php';
-			if(ENIGMA_ADVANCED) $menu->menu_items['Advanced'] = 'advanced.php';
+			if(ENIGMA_LIBER_AL) $menu->menu_items['Quick Search'] = 'index.php';
+			if(ENIGMA_ADVANCED) $menu->menu_items['Advanced Search'] = 'advanced.php';
 			if(ENIGMA_CUSTOM_TEXT) $menu->menu_items['Custom text'] = 'custom_text.php';
 			if(ENIGMA_ABOUT) $menu->menu_items['About'] = 'about.php';
 			if(ENIGMA_HELP) $menu->menu_items['Help'] = 'help.php';

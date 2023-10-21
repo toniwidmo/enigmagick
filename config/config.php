@@ -23,6 +23,10 @@
 		require_once(getFileToUse($class_filename,'/lib/'));
 	}
 
+	function includePage($page_filename) {
+		require_once(getFileToUse($page_filename,'/'));
+	}
+
 	function checkUserInput($name, $default='') {
 		foreach($_REQUEST as $key => $value) {
 			if($key == $name) {
@@ -72,7 +76,7 @@
 					if(is_object($arg)) {
 						// Make sure we don't accidentally display things we shouldn't
 						// during debug operations...
-					
+
 						if(isset($arg->pswd)) {
 							$arg->pswd = '*******************';
 							$temp_pswd = $arg->pswd;
@@ -80,7 +84,7 @@
 					}
 					echo '<pre>'.$prefix.print_r($arg,true).'</pre>';
 					$prefix = '';
-					if(is_object($arg)) {					
+					if(is_object($arg)) {
 						if(isset($arg->pswd)) {
 							$arg->pswd = $temp_pswd;
 						}

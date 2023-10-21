@@ -2,10 +2,11 @@
 	if(!defined('ENIGMA_SITE_TITLE')) DEFINE('ENIGMA_SITE_TITLE', 'EnigMagick');
 	if(!defined('ENIGMA_THEME')) DEFINE('ENIGMA_THEME', 'default');
 	if(!defined('ENIGMA_DEBUG')) DEFINE('ENIGMA_DEBUG', false);
+	if(!defined('ENIGMA_DEFAULT_PAGE')) DEFINE('ENIGMA_DEFAULT_PAGE', 'quick'); // page called from index.php
 
 	// Menu Items
-	if(!defined('ENIGMA_LIBER_AL')) DEFINE('ENIGMA_LIBER_AL', true);
-	if(!defined('ENIGMA_ADVANCED')) DEFINE('ENIGMA_ADVANCED', false); // Best not to enable unless you've added custom texts
+	if(!defined('ENIGMA_QUICK')) DEFINE('ENIGMA_QUICK', true);
+	if(!defined('ENIGMA_ADVANCED')) DEFINE('ENIGMA_ADVANCED', false);
 	if(!defined('ENIGMA_CUSTOM_TEXT')) DEFINE('ENIGMA_CUSTOM_TEXT', true);
 	if(!defined('ENIGMA_ABOUT')) DEFINE('ENIGMA_ABOUT', true);
 	if(!defined('ENIGMA_HELP')) DEFINE('ENIGMA_HELP', true);

@@ -2,8 +2,8 @@
 	$url = (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on')) ? 'https://' : 'http://';
 	$url .= $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
 
-	define('BASE_PATH',realpath('.')); // For use in PHP if needed
-	define('BASE_URL', $url); // For use in client output (css and js includes for example).
+	if(!defined('BASE_PATH')) DEFINE('BASE_PATH', realpath('.')); // For use in PHP if needed
+	if(!defined('BASE_URL')) DEFINE('BASE_URL', $url); // For use in client output (css and js includes for example).
 //echo BASE_URL;
 
 	$search = '';

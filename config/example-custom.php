@@ -6,8 +6,11 @@
 	// Theme to use
 	//if(!defined('ENIGMA_THEME')) DEFINE('ENIGMA_THEME', 'darkred');
 
-	// Turn debugging on. Best not to on a live website.
+	// Turns debugging on. Best not to on a live website.
 	if(!defined('ENIGMA_DEBUG')) DEFINE('ENIGMA_DEBUG', false);
+
+	// Allows you to set the default page. By default it is quick search.
+	if(!defined('ENIGMA_DEFAULT_PAGE')) DEFINE('ENIGMA_DEFAULT_PAGE', 'quick'); // page called from index.php
 
 	// Menu Items
 	if(!defined('ENIGMA_LIBER_AL')) DEFINE('ENIGMA_LIBER_AL', true);
