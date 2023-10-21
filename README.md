@@ -8,7 +8,7 @@ require a database.
 
 Latest Version
 --------------
-0.5.0 Alpha
+0.5.1 Alpha
 
 
 Requirements
@@ -34,7 +34,8 @@ Admin features are via editing a config file, nothing too fancy
 * Fully theme-able. Web admins can theme the tool to match their websites.
 * All menu items can be disabled. Activate only the features you need.
 * Install as many custom texts as you require
-* Define meta information about the texts
+* Optionally define meta information about the texts
+* Set the default page
 
 Attribution
 -----------
@@ -45,4 +46,5 @@ https://computers.faith/enigmagick
 
 You can download the software from https://github.com/toniwidmo/enigmagick/
 
-Our Lady, the divine keeper of knowledge, discerns the present mysteries and the reasons that have held men asunder.
+"Our Lady, the divine keeper of knowledge, discerns the present mysteries and
+the reasons that have held men asunder.

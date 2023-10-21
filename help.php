@@ -17,7 +17,7 @@
 	$content = new Content($page->search);
 	//$content->message = '<h2>Using EnigMagick</h2>';
 
-	$content->message .= '<h3>Liber AL</h3>';
+	$content->message .= '<h3>Quick Search</h3>';
 	$content->message .= '<p>In the default page, reached by pressing the "Liber AL" tab, simply enter a number, word or phrase
 	that you wish to evaluate and press the "Apply Cipher" button. If you entered a number, EnigMagick will find the
 	first matching word or phrase in Liber AL, if you entered a word or phrase, EnigMagick will calculate its number.

@@ -19,7 +19,7 @@
 			includeClass('class_menu.php');
 			$menu = new Menu($this->search);
 			$menu->menu = 'main';
-			if(ENIGMA_LIBER_AL) $menu->menu_items['Quick Search'] = 'index.php';
+			if(ENIGMA_LIBER_AL) $menu->menu_items['Quick Search'] = 'quick.php';
 			if(ENIGMA_ADVANCED) $menu->menu_items['Advanced Search'] = 'advanced.php';
 			if(ENIGMA_CUSTOM_TEXT) $menu->menu_items['Custom text'] = 'custom_text.php';
 			if(ENIGMA_ABOUT) $menu->menu_items['About'] = 'about.php';
