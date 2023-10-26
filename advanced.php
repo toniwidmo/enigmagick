@@ -22,12 +22,13 @@
 	}
 
 	$page->search = $search;
-	$page->title = 'Search on Custom Text';
+	$page->title = 'Advanced Search';
 	$page->cipher = $cipher;
 
 	includeClass('class_form.php');
 	$form = new SearchForm($search);
 	$form->showFiles();
+	$form->showCipher();
 	$form->cipher = $cipher;
 	$form->file_source = $file_source;
 	$form->form_action = 'advanced.php';

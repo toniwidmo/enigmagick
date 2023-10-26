@@ -21,7 +21,7 @@
 
 	includeClass('class_form.php');
 	$form = new SearchForm($search);
-	$form->form_action = 'index.php';
+	$form->form_action = 'quick.php';
 	$form->cipher = $cipher;
 	$page->content[] = $form;
 

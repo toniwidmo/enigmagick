@@ -12,10 +12,13 @@
 		</select>
 	<?php } ?>
 
-	<select name="cipher">
-		<option value="">English Qaballa</option>
-		<option value="GoN" <?php if($this->cipher == 'GoN') { ?>selected<?php } ?>>Gematria of Nothing</option>
-	</select>
+	<?php if($this->show_cipher) { ?>
+		<select name="cipher">
+			<option value="">English Qaballa</option>
+			<option value="GoN" <?php if($this->cipher == 'GoN') { ?>selected<?php } ?>>Gematria of Nothing</option>
+		</select>
+	<?php } ?>
+
 	<p><input type="submit" value="Apply Cipher" />
 	</form>
 </div>

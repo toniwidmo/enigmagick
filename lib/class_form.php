@@ -11,6 +11,7 @@
 		public $form_id;
 		public $show_custom_text = false;
 		public $show_files = false;
+		public $show_cipher = false;
 
 		public $css = array('form.css.php');
 
@@ -24,6 +25,10 @@
 
 		function showFiles() {
 			$this->show_files = true;
+		}
+
+		function showCipher() {
+			$this->show_cipher = true;
 		}
 
 		function render() {
