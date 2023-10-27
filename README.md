@@ -8,7 +8,7 @@ require a database.
 Latest Version
 --------------
 
-0.6.0 Alpha
+0.6.1 Alpha
 
 Requirements
 ------------
@@ -44,8 +44,9 @@ API Features
 
 * GET list of searchable texts
 * GET list of available ciphers
-* TODO: GET list of matches for given [number or phrase]/cipher/text
+* GET list of matches for given search[number or phrase]/cipher/text
 * TODO: GET triangle for given phrase/cipher
+* TODO: add 'nice' REST style URL aliases for the files.
 
 Attribution
 -----------
