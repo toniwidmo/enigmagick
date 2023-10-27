@@ -81,9 +81,11 @@
 		}
 
 		function renderPage() {
-			$css_file = $this->getCSSFiles();
-
-			include($this->getTemplate('page.php'));
+			if(ENIGMA_WEBSITE) {
+				$css_file = $this->getCSSFiles();
+	
+				include($this->getTemplate('page.php'));
+			}
 		}
 	}
 ?>

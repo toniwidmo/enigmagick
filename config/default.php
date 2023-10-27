@@ -11,6 +11,10 @@
 	if(!defined('ENIGMA_ABOUT')) DEFINE('ENIGMA_ABOUT', true);
 	if(!defined('ENIGMA_HELP')) DEFINE('ENIGMA_HELP', true);
 
+
+	if(!defined('ENIGMA_WEBSITE')) DEFINE('ENIGMA_WEBSITE', false); // By default Web Site is switched on. You can disable and go API only, or switch API on with website still on.
+	if(!defined('ENIGMA_API')) DEFINE('ENIGMA_API', false); // By default API is switched off
+
 	global $ENIGMA_texts;
 	// Define default texts
 	// Liber AL vel LEGIS

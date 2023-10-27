@@ -5,14 +5,14 @@ EnigMagick is web based gematria software for finding matches in bodies of text.
 Works with EQ, GoN and will be expanded to support other systems. It does not
 require a database.
 
-
 Latest Version
 --------------
-0.5.1 Alpha
 
+0.6.0 Alpha
 
 Requirements
 ------------
+
 1. Any web server capable of running PHP5 or later. Tested on PHP7.4 and PHP8.1
 
 User Features
@@ -31,14 +31,25 @@ Admin Features
 --------------
 
 Admin features are via editing a config file, nothing too fancy
+
 * Fully theme-able. Web admins can theme the tool to match their websites.
 * All menu items can be disabled. Activate only the features you need.
 * Install as many custom texts as you require
 * Optionally define meta information about the texts
 * Set the default page
+* Enable/Disable API and Website 
+
+API Features
+------------
+
+* GET list of searchable texts
+* GET list of available ciphers
+* TODO: GET list of matches for given [number or phrase]/cipher/text
+* TODO: GET triangle for given phrase/cipher
 
 Attribution
 -----------
+
 EnigMagick has so far been developed by Toni Widmo.
 
 Toni would like to thank Soror 826 for hosting a demo of the software on:
@@ -46,5 +57,5 @@ https://computers.faith/enigmagick
 
 You can download the software from https://github.com/toniwidmo/enigmagick/
 
-"Our Lady, the divine keeper of knowledge, discerns the present mysteries and
-the reasons that have held men asunder.
+***"Our Lady, the divine keeper of knowledge, discerns the present mysteries and
+the reasons that have held men asunder."***

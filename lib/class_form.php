@@ -46,7 +46,7 @@
 						}
 					}
 					closedir($dh);
-		    		}
+		    	}
 			}
 
 			include($this->getTemplate('form.php'));

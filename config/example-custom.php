@@ -19,6 +19,11 @@
 	if(!defined('ENIGMA_ABOUT')) DEFINE('ENIGMA_ABOUT', true);
 	if(!defined('ENIGMA_HELP')) DEFINE('ENIGMA_HELP', true);
 
+	// Enable/Disable API and Website.
+	if(!defined('ENIGMA_WEBSITE')) DEFINE('ENIGMA_WEBSITE', true); // By default Web Site is switched on. You can disable and go API only, or switch API on with website still on.
+	if(!defined('ENIGMA_API')) DEFINE('ENIGMA_API', false); // By default API is switched off
+
+
 		// Define default texts
 		if(!isset($ENIGMA_texts)) $ENIGMA_texts = array();
 
