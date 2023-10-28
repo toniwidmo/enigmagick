@@ -22,7 +22,7 @@
                 $file_source = $_GET['text'];
                 $cipher = $_GET['cipher'];
         } else {
-            response(NULL, 400, 'Missing parameters.');
+            response(NULL, NULL, 400, 'Missing parameters.');
         }
 
         // Hard coded for now. Replace this with list of ciphers in folder once
@@ -33,14 +33,15 @@
         $matches->cipher = $cipher;
         $matches->getMatches();
     
-        response($matches->matches, 200, 'OK');
+        response($matches->matches, $matches->search_value, 200, 'OK');
     } else {
-        response(NULL, 423, 'This feature is currently disabled.');
+        response(NULL, NULL, 423, 'This feature is currently disabled.');
     }
 
 
-    function response($ciphers,$response_code,$response_desc){
-        $response['ciphers'] = $ciphers;
+    function response($matches,$value,$response_code,$response_desc){
+        $response['matches'] = $matches;
+        $response['value'] = $value;
         $response['response_code'] = $response_code;
         $response['response_desc'] = $response_desc;
         
