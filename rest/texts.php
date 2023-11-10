@@ -27,7 +27,7 @@
                             $text_title = str_replace('-',' ',$text_title);
                         }
 
-                        $source_files[$file] = $text_title;
+                        $source_files[] = new APIText($text_title,$file);
                     }
                 }
                 closedir($dh);
@@ -52,5 +52,15 @@
         
         $json_response = json_encode($response);
         echo $json_response;
+    }
+
+    class APIText {
+        public $title = "";
+        public $file = "";
+
+        function __construct($title, $file) {
+            $this->title = $title;
+            $this->file = $file;
+		}
     }
 ?>

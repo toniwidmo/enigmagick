@@ -14,8 +14,8 @@
         // Hard coded for now. Replace this with list of ciphers in folder once
         // that feature is ready...
         $ciphers = array();
-        $ciphers['GoN'] = 'Gematria of Nothing';
-        $ciphers['EQ'] = 'English Qaballah';
+        $ciphers[] = new APICipher('GoN','Gematria of Nothing');
+        $ciphers[] = new APICipher('EQ','English Qaballah');
     
         response($ciphers, 200, 'OK');
     } else {
@@ -30,5 +30,16 @@
         
         $json_response = json_encode($response);
         echo $json_response;
+    }
+
+
+    class APICipher {
+        public $short_name = "";
+        public $name = "";
+
+        function __construct($short_name, $name) {
+            $this->short_name = $short_name;
+            $this->name = $name;
+		}
     }
 ?>
