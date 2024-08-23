@@ -53,7 +53,11 @@ Attribution
 
 EnigMagick has so far been developed by Toni Widmo.
 
-Toni would like to thank Soror 826 for hosting a demo of the software on:
+The official demo site is:
+https://enigmagick.net
+
+Toni would like to thank Soror 826 for hosting an additional demo of the software 
+on:
 https://computers.faith/enigmagick
 
 You can download the software from https://github.com/toniwidmo/enigmagick/
