@@ -76,7 +76,7 @@
 		$text['title'] = 'Ketoret and Kyphi at a glance';
 		$text['author'] = 'Dana Widmo';
 		$text['about'] = '';
-		$ENIGMA_texts[] = $te
+		$ENIGMA_texts[] = $text;
 
 		// Kite UFO
 		$text = array();
