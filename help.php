@@ -6,7 +6,7 @@
 	if(!defined('BASE_URL')) DEFINE('BASE_URL', $url); // For use in client output (css and js includes for example).
 //echo BASE_URL;
 
-	$search = '891';
+	$search = '';
 
 	require_once(BASE_PATH.'/config/config.php');
 
